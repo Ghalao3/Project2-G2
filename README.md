@@ -32,9 +32,10 @@ pip install numpy pandas matplotlib seaborn scikit-learn xgboost flask fastapi l
 
 ## Dataset
 The dataset for training the model is provided with columns:
-- **title**: The headline of the news article.
-- **text**: The full content of the news article.
-- **label**: The true label (0 for fake news, 1 for real news).
+
+- **`label`**: The true label (0 for fake news, 1 for real news).
+- **`title`**: The headline of the news article.
+- **`text`**: The full content of the article.
 
 The validation dataset contains news articles without labels, and our task is to predict whether each article is real or fake.
 
